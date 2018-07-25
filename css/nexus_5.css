@@ -1,0 +1,92 @@
+	@import url("http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext");
+
+h1 {
+	font-size: 150%;
+}
+
+h1, h5 {
+	width: 100%;
+	font-family: Lato;
+	font-weight: 100;
+	color: #2d3c49;
+	text-align: right;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h3 {
+	width: 100%;
+	font-family: Lato;
+	font-weight: 100;
+	color: #7d97ad;
+	text-align: left;
+}
+
+hr {
+	background-color: #7d97ad;
+	height: 2px;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p.url {
+	font-size: 75%;
+}
+
+.logo {
+	width: 55%;
+	height: auto;
+}
+
+div.container {
+	display: flex;
+	width: 100%;
+}
+
+.featured {
+	text-align: center;
+	font-family: Lato;
+	font-weight: 100;
+	color: #2d3c49;
+}
+
+div.logo {
+	box-sizing: border-box;
+	width: 25%;
+	float: left;
+}
+
+div.name {
+	box-sizing: border-box;
+	width: 75%;
+	float: left;
+}
+
+.code {
+	width: 100%;
+	height: auto;
+}
+
+.drone {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.dog {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.chess {
+	width: 100%;
+	height: auto;
+}
