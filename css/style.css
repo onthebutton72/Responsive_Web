@@ -4,9 +4,14 @@
 	h1 {
 		font-size: 150%;
 	}
-
 	.logo {
 		width: 55%;
+	}
+	#code-1 {
+		display: block;
+	}
+	#code-2 {
+		display: none;
 	}
 }
 
@@ -14,23 +19,24 @@
 	h1 {
 		font-size: 200%;
 	}
-
 	h5 {
 		font-size: 120%;
 	}
-
 	.logo {
 		width: 33%;
 	}
-
+	#code-1 {
+		display: block;
+	}
+	#code-2 {
+		display: none;
+	}
 	.featured {
 		font-size: 120%;
 	}
-
 	.drone, .dog {
 		width: 50%;
 	}
-
 	.chess {
 		width: 100%;
 	}
@@ -40,39 +46,45 @@
 	h1 {
 		font-size: 200%;
 	}
-
 	h5 {
 		font-size: 120%;
 	}
-
 	.logo {
 		width: 33%;
 	}
-
+	#code-1 {
+		display: block;
+	}
+	#code-2 {
+		display: none;
+	}
 	.featured {
 		font-size: 120%;
 	}
-
 	.drone, .dog, .chess {
 		width: 33.3333%;
 	}
 }
 
 @media only screen and (min-width: 1025px) {
-	.logo {
-		width: 55px;
-	}
-
-	.code, .featured, header {
-		width: 1025px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
 	h3 {
 		float:none;
 		margin: 15px auto;
 		max-width: 1025px;
+	}
+	.logo {
+		width: 55px;
+	}
+	#code-1 {
+		display: none;
+	}
+	#code-2 {
+		display: block;
+	}
+	.code, .featured, header {
+		width: 1025px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
@@ -133,13 +145,11 @@ div.myinfo {
 div.logo {
 	box-sizing: border-box;
 	width: 25%;
-	/*float: left;*/
 }
 
 div.name {
 	box-sizing: border-box;
 	width: 75%;
-	/*float: left;*/
 }
 
 .drone {
