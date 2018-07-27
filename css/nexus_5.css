@@ -1,7 +1,79 @@
-	@import url("http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext");
+@import url("http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext");
 
-h1 {
-	font-size: 150%;
+@media only screen and (max-width: 424px) {
+	h1 {
+		font-size: 150%;
+	}
+
+	.logo {
+		width: 55%;
+	}
+}
+
+@media only screen and (min-width: 425px) {
+	h1 {
+		font-size: 200%;
+	}
+
+	h5 {
+		font-size: 120%;
+	}
+
+	.logo {
+		width: 33%;
+	}
+
+	.featured {
+		font-size: 120%;
+	}
+
+	.drone, .dog {
+		width: 50%;
+	}
+
+	.chess {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	h1 {
+		font-size: 200%;
+	}
+
+	h5 {
+		font-size: 120%;
+	}
+
+	.logo {
+		width: 33%;
+	}
+
+	.featured {
+		font-size: 120%;
+	}
+
+	.drone, .dog, .chess {
+		width: 33.3333%;
+	}
+}
+
+@media only screen and (min-width: 1025px) {
+	.logo {
+		width: 55px;
+	}
+
+	.code, .featured, header {
+		width: 1025px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	h3 {
+		float:none;
+		margin: 15px auto;
+		max-width: 1025px;
+	}
 }
 
 h1, h5 {
@@ -15,7 +87,6 @@ h1, h5 {
 }
 
 h3 {
-	width: 100%;
 	font-family: Lato;
 	font-weight: 100;
 	color: #7d97ad;
@@ -23,6 +94,7 @@ h3 {
 }
 
 hr {
+	max-width: 1025px;
 	background-color: #7d97ad;
 	height: 2px;
 }
@@ -37,15 +109,14 @@ p {
 }
 
 p.url {
-	font-size: 75%;
+	font-size: 70%;
 }
 
 .logo {
-	width: 55%;
 	height: auto;
 }
 
-div.container {
+div.myinfo {
 	display: flex;
 	width: 100%;
 }
@@ -55,38 +126,32 @@ div.container {
 	font-family: Lato;
 	font-weight: 100;
 	color: #2d3c49;
+	display: flex;
+	flex-flow:wrap;
 }
 
 div.logo {
 	box-sizing: border-box;
 	width: 25%;
-	float: left;
+	/*float: left;*/
 }
 
 div.name {
 	box-sizing: border-box;
 	width: 75%;
-	float: left;
-}
-
-.code {
-	width: 100%;
-	height: auto;
+	/*float: left;*/
 }
 
 .drone {
-	width: 100%;
 	height: auto;
 	margin-bottom: 10px;
 }
 
 .dog {
-	width: 100%;
 	height: auto;
 	margin-bottom: 10px;
 }
 
 .chess {
-	width: 100%;
 	height: auto;
 }
